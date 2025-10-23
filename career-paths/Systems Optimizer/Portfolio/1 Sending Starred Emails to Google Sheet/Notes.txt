@@ -1,0 +1,2 @@
+The built in "starred email" opton doesnt work; had to use 
+different method

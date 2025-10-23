@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Receipt - Starbucks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border: 2px solid #00704A;
+        }
+        .receipt-header {
+            text-align: center;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #00704A;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #00704A;
+            margin-bottom: 10px;
+        }
+        .store-info {
+            font-size: 11px;
+            line-height: 1.5;
+            color: #333;
+        }
+        .section {
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .item-name {
+            flex: 1;
+            font-size: 13px;
+        }
+        .item-mods {
+            font-size: 11px;
+            color: #666;
+            padding-left: 15px;
+            margin-top: 3px;
+        }
+        .item-price {
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .totals {
+            margin-top: 20px;
+            border-top: 2px solid #00704A;
+            padding-top: 10px;
+        }
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            font-size: 13px;
+        }
+        .grand-total {
+            font-size: 18px;
+            font-weight: bold;
+            border-top: 2px solid #00704A;
+            padding-top: 8px;
+            margin-top: 5px;
+            color: #00704A;
+        }
+        .payment-method {
+            margin-top: 15px;
+            padding: 10px;
+            background: #f7f7f7;
+            font-size: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid #00704A;
+            font-size: 11px;
+            color: #666;
+        }
+        .stars {
+            color: #00704A;
+            font-size: 20px;
+            text-align: center;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt-header">
+        <div class="logo">STARBUCKS COFFEE</div>
+        <div class="stars">☆ ☆ ☆</div>
+        <div class="store-info">
+            Springfield Downtown<br>
+            123 Main Street<br>
+            Springfield, IL 62701<br>
+            (555) 789-0123<br>
+            Store #14752
+        </div>
+    </div>
+
+    <div class="section">
+        <strong>Order #:</strong> 147<br>
+        <strong>Date:</strong> October 21, 2025<br>
+        <strong>Time:</strong> 9:15 AM<br>
+        <strong>Barista:</strong> Mike<br>
+        <strong>Register:</strong> 2
+    </div>
+
+    <div class="section">
+        <strong>YOUR ORDER:</strong>
+    </div>
+
+    <div class="item-row">
+        <div>
+            <div class="item-name">Grande Caffe Latte</div>
+            <div class="item-mods">
+                - Whole Milk<br>
+                - Extra Shot Espresso<br>
+                - Light Foam
+            </div>
+        </div>
+        <div class="item-price">$5.45</div>
+    </div>
+
+    <div class="item-row">
+        <div>
+            <div class="item-name">Venti Iced Coffee</div>
+            <div class="item-mods">
+                - Classic Syrup<br>
+                - Light Ice<br>
+                - Room for Cream
+            </div>
+        </div>
+        <div class="item-price">$3.95</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-name">Blueberry Muffin</div>
+        <div class="item-price">$3.95</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-name">Croissant</div>
+        <div class="item-price">$3.25</div>
+    </div>
+
+    <div class="totals">
+        <div class="total-row">
+            <div>Subtotal:</div>
+            <div>$16.60</div>
+        </div>
+        <div class="total-row">
+            <div>Tax (6.25%):</div>
+            <div>$1.04</div>
+        </div>
+        <div class="total-row grand-total">
+            <div>TOTAL:</div>
+            <div>$17.64</div>
+        </div>
+    </div>
+
+    <div class="payment-method">
+        <strong>Payment:</strong> Starbucks Card<br>
+        Card: **** **** **** 7821<br>
+        <strong>Previous Balance:</strong> $47.89<br>
+        <strong>New Balance:</strong> $30.25<br>
+        <br>
+        <strong>Stars Earned:</strong> 35 ⭐<br>
+        <strong>Total Stars:</strong> 187 ⭐<br>
+        <em>13 stars until next reward!</em>
+    </div>
+
+    <div class="section" style="background: #fff3cd; padding: 10px; border-left: 3px solid #ffc107;">
+        <strong>BUSINESS EXPENSE NOTE:</strong><br>
+        Purpose: Client meeting with Sarah Johnson<br>
+        Project: Johnson House Remodel<br>
+        Category: Meals & Entertainment
+    </div>
+
+    <div class="footer">
+        <strong>Thank you for choosing Starbucks!</strong><br>
+        <br>
+        Tell us about your visit:<br>
+        www.starbucks.com/survey<br>
+        Survey Code: 14752-147-102125<br>
+        <br>
+        Valid for 7 days<br>
+        <br>
+        <div class="stars">☆ ☆ ☆</div>
+        <br>
+        Download the Starbucks App<br>
+        for mobile ordering and rewards!<br>
+        <br>
+        <em>We hope to see you again soon!</em>
+    </div>
+</body>
+</html>
+
