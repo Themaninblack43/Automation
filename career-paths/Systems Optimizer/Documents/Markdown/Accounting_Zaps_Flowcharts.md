@@ -190,7 +190,7 @@ flowchart TD
     N --> O[Complete]
 ```
 
-**Time saved:** 142.5 minutes per month
+**Time saved:** 142.5 minutes per month3
 
 ---
 
